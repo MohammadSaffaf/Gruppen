@@ -2,11 +2,12 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
 </head>
+<html>
 
 <body>
     <section id="weather">
@@ -26,8 +27,64 @@
         </main>
     </section>
 
-    <script src="assets/js/main.js"></script>
 
+    <header class="main-head">
+        <nav>
+            <h1 id="logo">Travelly</h1>
+            <ul>
+                <li><a href="#locations">Locations</a></li>
+                <li><a href="#benefits">Benefits</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h2>Beyond Limits.</h2>
+            <h3>
+                Start your travel
+            </h3>
+
+            <button>Book Now</button>
+            <div id="bild">
+                <img src="https://source.unsplash.com/1600x900/?düsseldorf" alt="Düsseldorf" />
+            </div>
+            <div class="city-box">
+                <h1 id="city-name">Düsseldorf</h1>
+                <h3>13:35</h3>
+                <h2>🌤 27°</h2>
+            </div>
+
+            <div class="container">
+                <div class="formular card">
+                    <form id="form" class="form-box flex" name="formTest">
+                        <div class="form-control">
+                            <!-- <label for="city">Stadt</label> -->
+                            <select id="city" name="city">
+                                <option value="Berlin">Berlin</option>
+                                <option value="Amsterdam">Amsterdam</option>
+                                <option value="Düsseldorf">Düsseldorf</option>
+                                <option value="New York">New York</option>
+                                <option value="Tokio">Tokio</option>
+                                <option value="Berlin">Berlin</option>
+                                <option value="München">München</option>
+                                <option value="Rio de Janeiro">Rio de Janeiro</option>
+                            </select>
+                        </div>
+                        <div class="form-control">
+                            <button id="suchen" type="submit" value="suchen" class="btn btn-primary">
+                                Suchen
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <script src="assets/js/main.js"></script>
 </body>
 
 </html>
