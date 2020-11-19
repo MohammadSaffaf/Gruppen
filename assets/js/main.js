@@ -11,8 +11,8 @@ const api = {
 
 const displayResults = function (weather) {
   console.log('displayResults');
-  const citybox=document.querySelector('.city-box')
-  citybox.style.backgroundcolor=" rgba(0, 0, 0, 0.3)"
+  const citybox = document.querySelector('.city-box');
+  citybox.style.backgroundcolor = ' rgba(0, 0, 0, 0.3)';
   const city1 = document.querySelector('.location .city');
   city1.innerText = ` ${weather.name}, ${weather.sys.country}`;
   const temp = document.querySelector('.current .temp');
@@ -217,65 +217,61 @@ const zeit = document.getElementById('zeit');
 const zeitBerechnung = function () {
   if (city.value === '') {
     // zeit.innerHTML = calcTime('Berlin','+1');
-  }else if (city.value === 'Berlin') {
+  } else if (city.value === 'Berlin') {
     zeit.innerHTML = calcTime('Berlin', '+1');
-  }
-   else if (city.value === 'New York') {
+  } else if (city.value === 'New York') {
     zeit.innerHTML = calcTime('New York', '-5');
-  }  else if (city.value === 'Amsterdam') {
-    zeit.innerHTML = calcTime('Amsterdam','+1');
+  } else if (city.value === 'Amsterdam') {
+    zeit.innerHTML = calcTime('Amsterdam', '+1');
   } else if (city.value === 'München') {
-    zeit.innerHTML = calcTime('München','+1');
+    zeit.innerHTML = calcTime('München', '+1');
   } else if (city.value === 'Hamburg') {
-    zeit.innerHTML = calcTime('Hamburg','+1');
+    zeit.innerHTML = calcTime('Hamburg', '+1');
   } else if (city.value === 'Dresden') {
-    zeit.innerHTML = calcTime('Dresden','+1');
+    zeit.innerHTML = calcTime('Dresden', '+1');
   } else if (city.value === 'Leipzig') {
-    zeit.innerHTML = calcTime('Leipzig','+1');
+    zeit.innerHTML = calcTime('Leipzig', '+1');
   } else if (city.value === 'Düsseldorf') {
-    zeit.innerHTML = calcTime('Düsseldorf','+1');
+    zeit.innerHTML = calcTime('Düsseldorf', '+1');
   } else if (city.value === 'Lübeck') {
-    zeit.innerHTML = calcTime('Lübeck','+1');
+    zeit.innerHTML = calcTime('Lübeck', '+1');
   } else if (city.value === 'Heidelberg') {
-    zeit.innerHTML = calcTime('Heidelberg','+1');
+    zeit.innerHTML = calcTime('Heidelberg', '+1');
   } else if (city.value === 'Konstanz') {
-    zeit.innerHTML = calcTime('Konstanz','+1');
-  } 
-  
-  else if (city.value === 'Tokio') {
+    zeit.innerHTML = calcTime('Konstanz', '+1');
+  } else if (city.value === 'Tokio') {
     zeit.innerHTML = calcTime('Tokio', '+9');
   } else if (city.value === 'Bamberg') {
-    zeit.innerHTML = calcTime('Bamberg','+1');
+    zeit.innerHTML = calcTime('Bamberg', '+1');
   } else if (city.value === 'Venedig') {
-    zeit.innerHTML = calcTime('Venedig','+1');
+    zeit.innerHTML = calcTime('Venedig', '+1');
   } else if (city.value === 'Wien') {
-    zeit.innerHTML = calcTime('Wien','+1');
+    zeit.innerHTML = calcTime('Wien', '+1');
   } else if (city.value === 'London') {
-    zeit.innerHTML = calcTime('London','-1');
+    zeit.innerHTML = calcTime('London', '0');
   } else if (city.value === 'Rom') {
-    zeit.innerHTML = calcTime('Rom','+1');
+    zeit.innerHTML = calcTime('Rom', '+1');
   } else if (city.value === 'Paris') {
-    zeit.innerHTML = calcTime('Paris','+1');
+    zeit.innerHTML = calcTime('Paris', '+1');
   } else if (city.value === 'Florenz') {
-    zeit.innerHTML = calcTime('Florenz','+1');
+    zeit.innerHTML = calcTime('Florenz', '+1');
   } else if (city.value === 'Prag') {
-    zeit.innerHTML = calcTime('Prag','+1');
+    zeit.innerHTML = calcTime('Prag', '+1');
   } else if (city.value === 'Lissabon') {
-    zeit.innerHTML = calcTime('Lissabon','-1');
+    zeit.innerHTML = calcTime('Lissabon', '-1');
   } else if (city.value === 'Copenhagen') {
-    zeit.innerHTML = calcTime('Copenhagen','+1');
+    zeit.innerHTML = calcTime('Copenhagen', '+1');
   } else if (city.value === ' Damascus') {
-    zeit.innerHTML = calcTime(' Damascus','+2');
-  }else if (city.value === 'China') {
-    zeit.innerHTML = calcTime('China','+8');
-  }else if (city.value === 'Shanghai') {
-    zeit.innerHTML = calcTime('Shanghai','+8');
-  }else if (city.value === 'Hong Kong') {
-    zeit.innerHTML = calcTime('Hong Kong','+8');
-  }else if (city.value === 'Chicago') {
-    zeit.innerHTML = calcTime('Chicago','-6');
+    zeit.innerHTML = calcTime(' Damascus', '+2');
+  } else if (city.value === 'China') {
+    zeit.innerHTML = calcTime('China', '+8');
+  } else if (city.value === 'Shanghai') {
+    zeit.innerHTML = calcTime('Shanghai', '+8');
+  } else if (city.value === 'Hong Kong') {
+    zeit.innerHTML = calcTime('Hong Kong', '+8');
+  } else if (city.value === 'Chicago') {
+    zeit.innerHTML = calcTime('Chicago', '-6');
   }
-  
 };
 
 // // get Bombay time
