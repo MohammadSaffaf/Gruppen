@@ -14,17 +14,16 @@
         <input type="text" class="search-box">
         <p>click Enter </p>
 
-        <main>
-            <section class="location">
+            <div class="location">
                 <div class="city"></div>
-            </section>
+            </div>
             <div class="current">
                 <div class="temp"></div>
                 <div class="weather"></div>
                 <img class="icon" src="" />
                 <div class="hi-low"></div>
             </div>
-        </main>
+
     </section>
 
 
@@ -39,95 +38,58 @@
         </nav>
     </header>
     <main>
-        <section class="hero">
+        <main>
+            <section class="hero">
+              <div class="city-box">
+                <h1 id="city-name">Berlin</h1>
 
-            <h2>Beyond Limits.</h2>
-            <h3>
-                Start your travel
-            </h3>
-
-            <!-- <button>Book Now</button> -->
-            <div id="bild">
-                <img src="https://source.unsplash.com/1600x900/?düsseldorf" alt="Düsseldorf" />
-            </div>
-            <div class="city-box">
-                <h1 id="city-name">Düsseldorf</h1>
-                <!-- <h3>13:35</h3>
-                <h2>🌤 27°</h2> -->
-            </div>
-
-            <div class="container">
-                <div class="formular card">
-                    <form id="form" class="form-box flex" name="formTest">
-                        <div class="form-control">
-                            <!-- <label for="city">Stadt</label> -->
-                            <select id="city" name="city">
-                                <option value="Berlin">Berlin</option>
-                                <option value="Amsterdam">Amsterdam</option>
-                                <option value="Düsseldorf">Düsseldorf</option>
-                                <option value="New York">New York</option>
-                                <option value="Tokio">Tokio</option>
-                                <option value="Berlin">Berlin</option>
-                                <option value="München">München</option>
-                                <option value="Rio de Janeiro">Rio de Janeiro</option>
-                            </select>
-                        </div>
-                        <div class="form-control">
-                            <button id="suchen" type="submit" value="suchen" class="btn btn-primary">
-                                Suchen
-                            </button>
-                        </div>
-                    </form>
+                <div class="location">
+                  <div class="city"></div>
                 </div>
-            </div>
-        </section>
-        <h1>Wohin reisen Sie</h1>
-        <!-- <img src="" alt=""> -->
+                <div class="current">
+                  <div class="temp"></div>
+                  <div class="weather"></div>
+                  <img class="icon" src="" />
+                  <!-- <div class="hi-low"></div> -->
+                </div>
+              </div>
 
-        <select name="städte" size="" id="städte">
-            <optgroup label="Deutsche  Städte">
-                <option value="1">Berlin</option>
-                <option value="2">Hamburg</option>
-                <option value="3">München</option>
-                <option value="4">Dresden</option>
-                <option value="5">Leipzig</option>
+              <div class="container">
+                <div class="formular card">
+                  <form id="form" class="form-box flex" name="formTest">
+                    <div class="form-control">
+                      <!-- <label for="city">Stadt</label> -->
+                      <select id="city" name="city">
+                        <option value="Berlin">Berlin</option>
+                        <option value="Amsterdam">Amsterdam</option>
+                        <option value="New York">NewYork</option>
+                        <option value="Tokio">Tokio</option>
+                        <option value="Berlin">Berlin</option>
+                        <option value="München">München</option>
+                        <option value="Berlin">Berlin</option>
+                        <option value="Hamburg">Hamburg</option>
+                        <option value="Hamburg">Hamburg</option>
+                        <option value="Dresden">Dresden</option>
+                        <option value="Leipzig">Leipzig</option>
+                        <option value="Bamberg">Bamberg</option>
+                        <option value="Düsseldorf">Düsseldorf</option>
+                        <option value="Lübeck">Lübeck</option>
+                        <option value="Heidelberg">Heidelberg</option>
+                        <option value="Köln">Köln</option>
 
-                <option value="6">Bamberg</option>
-                <option value="7">Düsseldorf</option>
-                <option value="8">Lübeck</option>
-                <option value="9">Heidelberg</option>
-                <option value="10">Köln</option>
-
-                <option value="11">Konstanz</option>
-
-            </optgroup>
-            <optgroup label="ausländische  Städte">
-                <option value="16">Vendig </option>
-                <option value="17">Amsterdam </option>
-                <option value="18">Wien</option>
-                <option value="19">London</option>
-                <option value="20">Rom</option>
-                <option value="21">Paris</option>
-                <option value="22">Florenz</option>
-                <option value="23">Prag</option>
-                <option value="24">Lissabon</option>
-
-                <option value="25">Kopenhagen</option>
-
-            </optgroup>
-
-
-        </select><br><br>
-        <button onclick="info()">INFO</button><br><br>
-
-
-
-        <button onclick="buchen()">BUCHEN</button><br><br>
-
-        <div id="buchen"> </div>
-        <div id="info"></div><br><br>
-
-        <div id="foto"></div><br><br>
+                        <option value="Konstanz">Konstanz</option>
+                      </select>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </section>
+            <section class="khaled">
+              <h3 id="zeit"></h3>
+              <div id="info"></div>
+              <!-- <div id="foto"></div> -->
+            </section>
+          </main>
 
 
 
