@@ -1,23 +1,20 @@
 <!DOCTYPE html>
-<html lang=“en”>
+<html lang="en">
 
 <head>
-    <meta charset=“UTF-8" />
-    <meta name=“viewport” content=“width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel=“stylesheet” href=“assets/css/style.css” />
+    <link rel="stylesheet" href="assets/css/style.css" />
+
 </head>
 
 <body>
     <main>
-        <section class=“hero”>
-            <div id="“bild”">
-                <img src="https://source.unsplash.com/1600x900/?düsseldorf" alt="“Düsseldorf”" />
-            </div>
+        <section class="hero">
             <div class="city-box">
-                <h1 id="city-name">Düsseldorf</h1>
-                <h3>13:35</h3>
-                <h2>:meist_sonnig: 27°</h2>
+                <h1 id="city-name"></h1>
+
                 <div class="location">
                     <div class="city"></div>
                 </div>
@@ -25,36 +22,72 @@
                     <div class="temp"></div>
                     <div class="weather"></div>
                     <img class="icon" src="" />
-                    <div class="hi-low"></div>
+                    <!-- <div class="hi-low"></div> -->
                 </div>
             </div>
-            <div class="container">
-                <div class="formular card">
-                    <form id="form" class="form-box flex" name="formTest">
-                        <div class="form-control">
+
+            <div class="containerrr" style="width: 100%;">
+                <div class="formular" style="width: 40%; margin-left: 53%;">
+                    <form id="form" class=" flex" name="formTest" style="width: 100%;">
+                        <div class="control">
                             <!-- <label for="city">Stadt</label> -->
                             <select id="city" name="city">
-                                <option value="Berlin">Berlin</option>
+
                                 <option value="Amsterdam">Amsterdam</option>
-                                <option value="Düsseldorf">Düsseldorf</option>
-                                <option value="New York">New York</option>
+                                <option value="China">China</option>
+                                <option value="Shanghai">Shanghai</option>
+                                <option value="Hong Kong">Hong Kong</option>
+                                <option value="Chicago">Chicago</option>
+
+                                <option value="New York">NewYork</option>
                                 <option value="Tokio">Tokio</option>
-                                <option value="Berlin">Berlin</option>
+                                <!-- <option value="Berlin">Berlin</option> -->
                                 <option value="München">München</option>
-                                <option value="Rio de Janeiro">Rio de Janeiro</option>
+                                <!-- <option value="Berlin">Berlin</option> -->
+                                <option value="Hamburg">Hamburg</option>
+                                <!-- <option value="Hamburg">Hamburg</option> -->
+                                <option value="Dresden">Dresden</option>
+                                <option value="Leipzig">Leipzig</option>
+                                <option value="Bamberg">Bamberg</option>
+                                <option value="Düsseldorf">Düsseldorf</option>
+                                <option value="Lübeck">Lübeck</option>
+                                <option value="Heidelberg">Heidelberg</option>
+                                <option value="Köln">Köln</option>
+
+                                <option value="Konstanz">Konstanz</option>
+                                <option value="Vendig">Venedig </option>
+                                <option value="Wien">Wien</option>
+                                <option value="London">London</option>
+                                <option value="Rom">Rom</option>
+                                <option value="Paris">Paris</option>
+                                <option value="Florenz">Florenz</option>
+                                <option value="Prag">Prag</option>
+                                <option value="Lissabon">Lissabon</option>
+
+                                <option value="Copenhagen">Copenhagen</option>
+                                <option value=" Damascus"> Damascus</option>
                             </select>
-                        </div>
-                        <div class="form-control">
-                            <button id="suchen" type="submit" value="suchen" class="btn btn-primary">
-                                Suchen
-                            </button>
                         </div>
                     </form>
                 </div>
             </div>
         </section>
+        <h3 id="zeit"></h3>
+        <section class="khaled">
+
+            <div id="info"></div>
+            <article class="cityPhoto">
+
+                <div id="foto"></div>
+                <div id="foto1"></div>
+                <div id="foto2"></div>
+            </article>
+        </section>
     </main>
+
     <script src="assets/js/main.js"></script>
+
+
 </body>
 
 </html>
